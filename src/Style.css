@@ -1,0 +1,36 @@
+body {
+  background-color: #d4d3d1;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+form .form-group input {
+  border-radius: 5px !important;
+  text-align: center;
+  width: 60% !important;
+  transition: 350ms ease-in-out !important;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+form .form-group input:focus,
+form .form-group input:hover {
+  border-radius: 8px !important;
+  width: 100% !important;
+}
+
+.card-body .card-title h5 {
+  margin-bottom: 0;
+}
